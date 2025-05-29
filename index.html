@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Shopping</title>
+    <!--* Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--* Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--* Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--* Header Section Start -->
+    <!--todo: Nav Section -->
+        <nav class="navbar navbar-expand-lg container bg-black position-fixed fixed-top">
+            <div class="container-fluid">
+                    <!--Logo-->
+                <!-- <a class="navbar-brand" href="#"><img src="./image/Label.png" alt="Logo"></a> -->
+                 <h2 id="logo">Go Shopping</h2>
+                    <!--Toggler Button -->
+                <button class="navbar-toggler border border-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="./image/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Menu Icon">
+                </button>
+                <div class="collapse navbar-collapse navbar-item" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn primary-btn" type="button">Login</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!--todo: Nav Section -->
+    <!--* Header Section End -->
+    <!--* Main Section Start -->
+    <main class="container">
+        <h1 class="text-center fw-bold">Our Product</h1>
+        <div class="row" id="mainCardContainer">
+            <!-- Cards -->
+            <!-- <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="card cardContainer" style="width: 18rem;">
+                <img src="./image/news-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <div class="allId">
+                        <button type="button">Album Id: </button>
+                        <button type="button">Id: </button>
+                    </div>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="card cardContainer" style="width: 18rem;">
+                <img src="./image/news-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <div class="allId">
+                        <button type="button">Album Id: </button>
+                        <button type="button">Id: </button>
+                    </div>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="card cardContainer" style="width: 18rem;">
+                <img src="./image/news-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <div class="allId">
+                        <button type="button">Album Id: </button>
+                        <button type="button">Id: </button>
+                    </div>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="card cardContainer" style="width: 18rem;">
+                <img src="./image/news-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <div class="allId">
+                        <button type="button">Album Id: </button>
+                        <button type="button">Id: </button>
+                    </div>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+            </div> -->
+        </div>
+    </main>
+    <!--* Main Section End -->
+    <!--* Footer Section Start -->
+    <footer class="container-fluid" id="footer">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 col-md-8 d-flex justify-content-center justify-content-md-start">
+                    <div class="footer-menu">
+                        <div class="menu-1">
+                            <ul class="d-flex flex-wrap p-0 gap-3 justify-content-center justify-content-md-start">
+                                <li><a href="#" class="card-link">Download Now</a></li>
+                                <li><a href="#" class="card-link">License</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-2">
+                            <ul class="d-flex flex-wrap flex-md-nowrap gap-3 p-0 justify-content-center justify-content-md-start">
+                                <li><a href="#" class="card-link">About</a></li>
+                                <li><a href="#" class="card-link">Features</a></li>
+                                <li><a href="#" class="card-link">Pricing</a></li>
+                                <li><a href="#" class="card-link">Careers</a></li>
+                                <li><a href="#" class="card-link">Help</a></li>
+                                <li><a href="#" class="card-link">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-3 d-flex justify-content-center justify-content-md-start">
+                            <p>
+                                © 2025 product. All rights reserved
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end">
+                    <div class="footer-app">
+                        <p class="text-center fw-medium">Get the App</p>
+                        <img src="./image/apple.png" alt="App Store Image "> <br>
+                        <img src="./image/andriod.png" alt="Google Play Image ">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!--* Footer Section End -->
+    <!-- script  -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
